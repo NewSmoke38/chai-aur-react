@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({username, btnText="visit me!!!"}) {
+function Card({username, btnText="visit me!!!"}) {     //props 
     
     return (
       <div className="flex flex-col rounded-xl  p-4"

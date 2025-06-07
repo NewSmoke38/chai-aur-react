@@ -5,13 +5,19 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(15)      // change states
+  const [counter, setCounter] = useState(15)      // change states
 
   // let counter = 15      // this wont reflect in UI
 
 const addValue = () => {
     if (counter < 30) {
-        setCounter(counter + 1)
+    setCounter((prevCounter) => {prevCounter})
+    setCounter((prevCounter) => {prevCounter})
+    setCounter((prevCounter) => {prevCounter})
+    setCounter((prevCounter) => {prevCounter})
+
+
+
     }
 }
 const removeValue = () => {
